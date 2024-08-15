@@ -2,7 +2,7 @@
     let isAEMGenAIVariationsAppLoaded = false;
     function loadAEMGenAIVariationsApp() {
       const script = document.createElement('script');
-      script.src = 'https://experience.adobe.com/solutions/aem-sites-genai-aem-genai-variations-mfe/static-assets/resources/sidekick/client.js';
+      script.src = 'https://experience.adobe.com/solutions/aem-sites-genai-aem-genai-variations-mfe/static-assets/resources/sidekick/client.js?aem-sites-genai-aem-genai-variations-mfe_version=PR-19-1f3c0c6bb3b19d1b03750f77a521cd2a90a9392a';
       script.onload = function () {
         isAEMGenAIVariationsAppLoaded = true;
       };
